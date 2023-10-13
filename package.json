@@ -2,7 +2,7 @@
   "name": "skills-evolution",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mateuszem88.github.io/skills-evolution",
+  "homepage": "https://MateuszEM88.github.io/skills-evolution",
   "type": "module",
   "scripts": {
     "dev": "vite",
