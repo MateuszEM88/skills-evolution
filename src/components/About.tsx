@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import aboutIMG from "../assets/aboutIMG.png";
 import * as AOS from "aos";
 

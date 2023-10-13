@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import face from "../assets/face.png";
 import heroIMG from "../assets/heroIMG.png";
 import * as AOS from "aos";

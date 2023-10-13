@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import tablet1 from "../assets/tablet1.png";
 import tablet2 from "../assets/tablet2.png";
 import * as AOS from "aos";
