@@ -9,7 +9,7 @@ function About() {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row w-screen min-h-screen">
+    <div className="About flex flex-col lg:flex-row w-screen min-h-screen">
       <div className="flex flex-col lg:w-2/5 h-full justify-around text-left p-4 lg:pt-12 lg:pl-12">
         <p
           data-aos="fade-down"

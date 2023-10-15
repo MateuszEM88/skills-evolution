@@ -9,7 +9,7 @@ const Oferta = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row w-screen min-h-screen lg:overflow-y-hidden mb-12">
+    <div className="Oferta flex flex-col lg:flex-row w-screen min-h-screen lg:overflow-y-hidden mb-12">
       <div className="flex flex-col lg:w-3/5 text-left pt-12 p-4 lg:pl-12">
         <p
           data-aos="fade-down"

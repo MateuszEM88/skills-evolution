@@ -32,7 +32,7 @@ const Guide = () => {
           className="flex flex-col items-center max-lg:pb-4 justify-center"
         >
           <p className="text-xl mt-4 font-Montserrat">ZAPISZ SIĘ I POBIERZ</p>
-          <span className="h-px w-24 bg-black mt-2 bg-underline"></span>
+          <span className="h-px  w-24 bg-black mt-2 bg-underline"></span>
         </div>
       </div>
       <div className="flex lg:h-screen lg:w-1/2 max-lg:pt-6">

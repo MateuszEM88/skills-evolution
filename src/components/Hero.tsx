@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import face from "../assets/face.png";
 import heroIMG from "../assets/heroIMG.png";
 import * as AOS from "aos";
+import { Link } from "react-scroll";
 
 function Hero() {
   useEffect(() => {
@@ -18,11 +19,38 @@ function Hero() {
           data-aos-duration="1000"
           className="flex justify-center items-center my-6 font-Montserrat"
         >
-          <p className="text-xl mx-2 tracking-wider">O NAS</p>
+          <Link
+            className="max-sm:text-lg text-xl lg:mx-2 lg:tracking-wider cursor-pointer hover:text-underline transition duration-500"
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            O NAS
+          </Link>
           <p className="text-xl mx-2 tracking-wider font-semibold">|</p>
-          <p className="text-xl mx-2 tracking-wider">OFERTA</p>
+          <Link
+            className="text-xl lg:mx-2 lg:tracking-wider cursor-pointer hover:text-underline transition duration-500"
+            to="Oferta"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            OFERTA
+          </Link>
           <p className="text-xl mx-2 tracking-wider font-semibold">|</p>
-          <p className="text-xl mx-2 tracking-wider">KONTAKT</p>
+          <Link
+            className="text-xl lg:mx-2 lg:tracking-wider cursor-pointer hover:text-underline transition duration-500"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            KONTAKT
+          </Link>
         </div>
         <div className="flex flex-col items-center justify-center w-80 h-80 rounded-full bg-white max-lg:mt-6">
           <img className="mb-6" src={face} alt="" />
@@ -33,7 +61,7 @@ function Hero() {
         <p
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="w-2/3 my-4 text-3xl font-bold leading-10"
+          className="lg:w-2/3 max-lg:p-4 my-4 text-3xl font-bold leading-10"
         >
           Pomożemy Ci zdobyć pracę marzeń i rozwijać się zawodowo.
         </p>
