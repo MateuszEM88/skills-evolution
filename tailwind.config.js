@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Lovelace: ['"Lovelace"'],
         Montserrat: ["Montserrat", "sans-serif"],
+        Merriweather: ["Merriweather", "serif"],
       },
       colors: {
         heroBg: "#F1F0ED",

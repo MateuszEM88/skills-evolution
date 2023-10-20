@@ -8,13 +8,13 @@ const Contact = () => {
     });
   }, []);
   return (
-    <div className="Contact flex w-screen lg:min-h-screen">
+    <div className="Contact mb-12 flex w-screen ">
       <div className="flex flex-col">
         <div className=" lg:pl-12 flex flex-col lg:w-10/12 text-left">
-          <h1 className="w-3/4 mb-8 text-5xl font-bold leading-none pt-12 p-4 lg:pl-12">
+          <h1 className="w-3/4 mb-8  font-bold leading-none pt-12 max-lg:p-4 ">
             Współpraca
           </h1>
-          <p className="lg:w-full text-xl text-left my-4 lg:my-8 font-Montserrat max-lg:p-4">
+          <p className="lg:w-full  text-left my-4 lg:my-8 font-Montserrat max-lg:p-4">
             Jesteś pracownikiem działu HR, placówki edukacyjnej (szkoły,
             uczelnie, biura karier) i poszukujesz wsparcia w zakresie szkoleń?
             Razem możemy stworzyć wartościowe programy edukacyjne (jak na
@@ -23,13 +23,13 @@ const Contact = () => {
           </p>
           <div className="flex">
             <div className="flex lg:w-1/2 flex-col">
-              <p className="lg:w-3/4 text-xl w-full text-left my-4 font-bold font-Montserrat max-lg:p-4">
+              <p className="lg:w-3/4  w-full text-left my-4 font-bold font-Montserrat max-lg:p-4">
                 Z chęcią omówimy, jakie zagadnienia są dla Ciebie istotne!
               </p>
-              <p className="lg:w-3/4 text-xl text-left my-4 max-lg: p-4 font-Montserrat">
+              <p className="lg:w-3/4  text-left my-4 max-lg:p-4 font-Montserrat">
                 Możemy przygotować spotkanie lub szkolenie z zakresu:
               </p>
-              <ul className="list-disc p-6 lg:pl-8 text-xl font-Montserrat">
+              <ul className="list-disc p-6 lg:pl-8 font-Montserrat">
                 <li>kompetencje i zawody przyszłości</li>
                 <li>kariera w IT</li>
                 <li>przygotowanie do wejścia na rynek pracy</li>
@@ -40,14 +40,14 @@ const Contact = () => {
               <div
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                className="flex flex-col lg:flex-row items-center justfiy-center p-4 lg:pl-12"
+                className="flex flex-col lg:flex-row items-center justfiy-center p-4 "
               >
-                <p className="w-3/4 text-xl w-full text-left lg:my-4 font-bold font-Montserrat">
+                <p className="w-3/4 w-full text-left lg:my-4 font-bold font-Montserrat">
                   Kontakt:
                 </p>
                 <a
                   href="mailto: KONTAKT@SKILLSEVOLUTION.PL"
-                  className="w-full max-sm:text-sm max-lg:text-lg text-xl text-left lg:my-8 font-Montserrat underline"
+                  className="w-full max-sm:text-sm max-lg:text-lg  text-left lg:my-8 font-Montserrat underline"
                 >
                   KONTAKT@SKILLSEVOLUTION.PL
                 </a>

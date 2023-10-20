@@ -1,19 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Lovelace";
-  src: url(./fonts/Lovelace-Regular.eot);
-}
-
-body {
-  box-sizing: border-box;
-}
-
-#root {
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  .logo {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  a {
+    font-size: 1.5vw;
+  }
+  p {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 2.25vw;
+  }
+  li {
+    font-size: 1.5vw;
+  }
+  .logo {
+    font-size: 6vw;
+  }
 }

@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-Lovelace overflow-x-hidden">
+    <div className="font-Merriweather w-full h-full flex flex-col overflow-x-hidden">
       <Hero />
       <About />
       <Joanna />

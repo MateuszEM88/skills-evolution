@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-screen justify-around items-center bg-heroBg mt-16 lg:text-xl">
+    <div className="flex flex-col lg:flex-row w-full justify-around items-center bg-heroBg mt-16 lg:text-xl">
       <div className="flex justify-center items-center my-8 lg:my-12 font-Montserrat">
         <a
           href="https://www.facebook.com/your.skills.evolution"
@@ -18,7 +18,7 @@ const Footer = () => {
         <p className="mx-2 lg:tracking-wider font-semibold">|</p>
         <p className=" lg:mx-2 lg:tracking-wider text-gray-400">LINKEDIN</p>
       </div>
-      <p className="lg:text-xl text-lg mx-2 tracking-wider font-Montserrat max-lg:pb-4 text-gray-400">
+      <p className=" mx-2 tracking-wider font-Montserrat max-lg:pb-4 text-gray-400">
         POLITYKA PRYWATNOŚCI
       </p>
     </div>
