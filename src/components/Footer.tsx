@@ -1,17 +1,17 @@
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full justify-around items-center bg-heroBg mt-16 lg:text-xl">
+    <div className="flex flex-col lg:flex-row w-full justify-around items-center bg-heroBg mt-4 lg:text-xl">
       <div className="flex justify-center items-center my-8 lg:my-12 font-Montserrat">
         <a
           href="https://www.facebook.com/your.skills.evolution"
-          className="lg:mx-2 lg:tracking-wider cursor-pointer "
+          className="lg:mx-2 lg:tracking-wider cursor-pointer hover:text-underline transition duration-500"
         >
           FACEBOOK
         </a>
         <p className=" mx-2 lg:tracking-wider font-semibold ">|</p>
         <a
           href="https://www.instagram.com/your.skills.evolution/"
-          className=" lg:mx-2 lg:tracking-wider cursor-pointer "
+          className=" lg:mx-2 lg:tracking-wider cursor-pointer hover:text-underline transition duration-500"
         >
           INSTAGRAM
         </a>

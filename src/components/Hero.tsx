@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import heroIMG from "../assets/heroIMG.png";
+import heroIMG from "../assets/heroIMG.jpg";
 import logo from "../assets/logo.png";
 import * as AOS from "aos";
 import { Link } from "react-scroll";
@@ -54,7 +54,7 @@ function Hero() {
           </Link>
         </div>
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <div className="flex flex-col items-center justify-center max-lg:w-1/2 aspect-square lg:w-2/5  max-lg:mt-6">
+          <div className="flex flex-col items-center justify-center max-lg:w-[15em] aspect-square lg:w-[18em] max-lg:mt-6">
             <img className="w-full h-full" src={logo} alt="" />
           </div>
           <h1
@@ -64,16 +64,21 @@ function Hero() {
           >
             Pomożemy Ci zdobyć pracę marzeń i rozwijać się zawodowo.
           </h1>
-        </div>
-        <div
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
-          className="flex flex-col items-center mb-6 max-lg:pb-6 justify-center"
-        >
-          <p className=" mt-4 font-Montserrat">POROZMAWIAJMY</p>
-          <span className="h-px w-24 bg-black my-2 bg-underline"></span>
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            className="flex flex-col items-center mb-6 lg:mt-12 max-lg:pb-6 justify-center"
+          >
+            <a
+              href="mailto: KONTAKT@SKILLSEVOLUTION.PL"
+              className=" mt-4 font-Montserrat hover:text-underline transition duration-500"
+            >
+              POROZMAWIAJMY
+            </a>
+            <span className="h-px w-24 mt-2 bg-black  bg-underline"></span>
+          </div>
         </div>
       </div>
       <div className="w-full lg:w-2/5  lg:overflow-y-hidden">

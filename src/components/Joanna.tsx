@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import quotes from "../assets/quotes.png";
-import joannaIMG from "../assets/joannaIMG.png";
+import joannaIMG from "../assets/joannaIMG.jpg";
 import * as AOS from "aos";
 
 const Joanna = () => {
@@ -29,7 +29,7 @@ const Joanna = () => {
           zagadnieniami związanymi z AI.
         </p>
         <div className="flex flex-col lg:flex-row pl-12 lg:w-3/4">
-          <img className="w-8 lg:h-12 mr-4" src={quotes} alt="" />
+          <img className="w-8 lg:h-12 lg:w-12 mr-4" src={quotes} alt="" />
           <p className="font-semibold">
             Chętnie pomogę Ci i postaram się doradzić w kwestiach zawodowych,
             które na pierwszą myśl pewnie Cię przerażają, ale zaufaj mi, nie

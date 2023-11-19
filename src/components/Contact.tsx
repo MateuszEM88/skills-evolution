@@ -8,7 +8,7 @@ const Contact = () => {
     });
   }, []);
   return (
-    <div className="Contact mb-12 flex w-screen ">
+    <div className="Contact flex w-screen ">
       <div className="flex flex-col">
         <div className=" lg:pl-12 flex flex-col lg:w-10/12 text-left">
           <h1 className="w-3/4 mb-8  font-bold leading-none pt-12 max-lg:p-4 ">

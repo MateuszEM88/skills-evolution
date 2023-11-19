@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import aboutIMG from "../assets/aboutIMG.png";
+import aboutIMG from "../assets/aboutIMG.jpg";
 import * as AOS from "aos";
 
 function About() {

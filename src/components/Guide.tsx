@@ -10,9 +10,9 @@ const Guide = () => {
     });
   }, []);
   return (
-    <div className="flex mb-12 flex-col lg:flex-row w-screen  lg:my-[5vh]">
+    <div className="flex mb-12 flex-col lg:flex-row w-screen  lg:my-12">
       <div className="lg:full lg:w-1/2 bg-heroBg text-left ">
-        <h1 className="lg:w-3/4 mb-8 lg:mt-[10vh] font-bold leading-none pt-12 pl-2 lg:pl-12">
+        <h1 className="lg:w-3/4 mb-8 lg:mt-12 font-bold leading-none pt-12 pl-2 lg:pl-12">
           Pobierz darmowe poradniki!
         </h1>
         <p className="lg:w-3/4 text-left my-8 font-Montserrat pl-4 lg:pl-12">
@@ -29,10 +29,10 @@ const Guide = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="300"
           data-aos-offset="0"
-          className="flex flex-col items-center max-lg:pb-4 justify-center mb-6"
+          className="flex flex-col items-center max-lg:pb-4 lg:mb-16 justify-center mb-6"
         >
           <p className=" mt-4 font-Montserrat">ZAPISZ SIĘ I POBIERZ</p>
-          <span className="h-px lg:mb-[10vh] w-24 bg-black bg-underline"></span>
+          <span className="h-px mt-2 w-24 bg-black bg-underline"></span>
         </div>
       </div>
       <div className="flex  lg:w-1/2 max-lg:pt-6">

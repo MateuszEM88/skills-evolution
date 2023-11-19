@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ofertaIMG from "../assets/ofertaIMG.png";
+import ofertaIMG from "../assets/ofertaIMG.jpg";
 import * as AOS from "aos";
 
 const Oferta = () => {
@@ -35,9 +35,14 @@ const Oferta = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="300"
           data-aos-offset="0"
-          className="flex flex-col items-center max-lg:pb-6 justify-center"
+          className="flex flex-col items-center max-lg:pb-6 justify-center mt-4"
         >
-          <p className=" mt-4 font-Montserrat">POZNAJ SZCZEGÓŁY</p>
+          <a
+            href="mailto: KONTAKT@SKILLSEVOLUTION.PL"
+            className=" mt-4 lg:mt-12 font-Montserrat hover:text-underline transition duration-500"
+          >
+            POZNAJ SZCZEGÓŁY
+          </a>
           <span className="h-px w-24 bg-black mt-2 bg-underline"></span>
         </div>
       </div>

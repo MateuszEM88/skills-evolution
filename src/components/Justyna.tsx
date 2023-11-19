@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import justynaIMG from "../assets/justynaIMG.png";
+import justynaIMG from "../assets/justynaIMG.jpg";
 import quotes from "../assets/quotes.png";
 import * as AOS from "aos";
 
@@ -30,7 +30,7 @@ const Justyna = () => {
           Accelerator. Obecnie razem z Joanną rozwija projekt Skills Evolution.
         </p>
         <div className="flex flex-col lg:flex-row pl-12 lg:w-3/4 ">
-          <img className="w-8 lg:h-12 mr-4" src={quotes} alt="" />
+          <img className="w-8 lg:h-12 lg:w-12 mr-4" src={quotes} alt="" />
           <p className="font-semibold">
             Mamy szczęście żyć w XXI wieku - epoce, która ułatwia nam realizację
             nawet tych najbardziej śmiałych marzeń. Wokół nas jest mnóstwo
